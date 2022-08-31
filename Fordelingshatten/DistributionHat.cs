@@ -44,6 +44,7 @@ namespace Fordelingshatten
             {
                 Console.WriteLine((distribution)3 + " - for de snedige, viljefaste og som ikke skyr noget for at nå deres mål");
             }
+            // We should never see this msg, but just to make sure if something went wrong, and you are not a wizard.
             else
             {
                 Console.WriteLine("Du er en muggle");
