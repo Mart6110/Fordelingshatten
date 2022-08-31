@@ -12,6 +12,7 @@ namespace Fordelingshatten
         {
             Console.WriteLine("Dit kollegie er:");
 
+            // I create a new object
             DistributionHat distribution = new DistributionHat();
 
             Console.ReadLine();

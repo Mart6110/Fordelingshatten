@@ -18,6 +18,7 @@ namespace Fordelingshatten
 
         public DistributionHat()
         {
+            // The random number that determents what house you are sorted into.
             Random rnd = new Random();
             int distributionNumber = rnd.Next(0, 4);
 
@@ -26,6 +27,7 @@ namespace Fordelingshatten
             int ravenclaw = (int)distribution.Ravenclaw;
             int slytherin = (int)distribution.Slytherin;
 
+            // I make an if statement to see what house im sorted into.
             if (gryffindor == distributionNumber)
             {
                 Console.WriteLine((distribution)0 + " - for de modige og stærke");
